@@ -1,0 +1,6 @@
+framework module Pods_IOSsample___TidywareTests {
+  umbrella header "Pods-IOSsample - TidywareTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

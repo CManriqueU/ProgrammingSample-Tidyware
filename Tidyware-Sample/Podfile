@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'IOSsample - Tidyware' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for IOSsample - Tidyware
+
+  pod 'Alamofire', '~> 4.0'
+
+  target 'IOSsample - TidywareTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'IOSsample - TidywareUITests' do
+    # Pods for testing
+  end
+
+end
